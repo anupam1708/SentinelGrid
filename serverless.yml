@@ -37,7 +37,7 @@ functions:
   ingestEvents:
     handler: handler.ingest
     events:
-      - schedule: rate(3 hours)
+      - schedule: rate(24000 hours)
 
   getEvents:
     handler: handler.getEvents
