@@ -1,5 +1,5 @@
 # SentinelGrid Dockerfile
-FROM node:18-alpine
+FROM node:22-alpine
 
 # Backend setup
 WORKDIR /app
